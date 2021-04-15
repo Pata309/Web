@@ -1,0 +1,153 @@
+*{
+	padding:0;
+	margin:0;
+	color:grey;
+	font-family:Arial;
+}
+body{
+	text-align:center;
+	background-color:white;
+}
+main{
+	width:80%;
+	margin:0 auto;
+	
+}
+@media(min-width:600px){
+	
+
+header{
+	margin-top:10px;
+}
+header h3{
+	float:left;
+}
+span{
+	color:rgb(0, 136, 204);
+}
+nav{
+	float:right;
+}
+li{
+	display:inline-block;
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+a{
+	display:block;
+	text-decoration:none;
+	color:black;
+	background-color:white;
+	padding:20px 6px;
+	font-weight:bold;
+}
+header li a:hover{
+	color:rgb(0, 136, 204);
+}
+header img{
+	width:100%;
+}
+header div{
+	height:500px;
+	
+}
+.manji_crni_div{
+	float:right;
+	color:white;
+	background-color:rgba(0,0,0,0.8);
+	display:block;
+	width:220px;
+	height:200px;
+	padding:10px;
+	position:relative;
+	top:-300px;
+	
+}
+.gumb{
+	color:white;
+	background-color:rgb(0, 136, 204);
+	display:block;
+	padding:8px 9px;
+	margin:2px;
+	float:left;
+	font-size:14px;
+}
+section{
+	clear:both;
+}
+section h1{
+	text-align:center;
+	position:relative;
+	top:-80px;
+	
+}
+.prvi_artikli{
+	width:100%;
+	clear:both;
+	float:left;
+	
+	border-bottom:3px solid rgb(0, 136, 204);
+}
+section div article{
+	float:left;
+	width:21%;
+	height:40%;
+	background-color:rgb(217, 217, 217);
+	padding:1%;
+	margin:1%;
+	
+}
+section div article h2{
+	color:black;
+}
+section div article a{
+	padding:3px;
+	width:100%;
+	position:relative;
+	top:12px;
+	left:-11px;
+}
+.drugi_artikl{
+	width:100%;
+	clear:both;
+	float:left;
+}
+.drugi_artikl img{
+	
+	width:20%;
+	margin:0 auto;
+	padding:1%;
+	margin:1%;
+	
+	
+}
+.prvaslika{
+	clear:both;
+	float:left;
+}
+.drugi_artikl h3{
+	clear:both;
+	float:left;
+	color:black;
+}
+.floatleft{
+	clear:both;
+	float:left;
+}
+footer {
+	width:100%;
+	margin:0 auto;
+}
+.polja_za_unos{
+	width:80%;
+	margin:0 auto;
+	
+}
+
+
+
+
+}

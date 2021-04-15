@@ -1,0 +1,172 @@
+body{
+	background-color:grey;
+	max-width:1120px;
+	width:100%;
+	margin: 0 auto;
+}
+
+	
+main{
+	background-image:url("img/back.jpg");
+	height:1600px;
+}
+
+
+h1{
+	position:relative;
+	top:8px;
+	left:12px;
+}
+span{
+	color:#446600;
+}
+
+li{
+	display:inline-block;
+	padding:5px;
+	float:right;
+	position:relative;
+	top:-50px;
+}
+ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	color:black;
+	padding:5px;
+	
+}
+.traka_s_navigacijom{
+	display:block;
+	float:left;
+	width:100%;
+	height:80px;
+}
+li a,.dropbtn{
+	display:inline-block;
+	text-decoration:none;
+}
+.dropdown-content{
+	display:none;
+	position:absolute;
+
+}
+}
+.dropdown-content a{
+	text-decoration:none;
+	display:block;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+a:hover{
+	background-color:lightgreen;
+	color:white;
+	transition:1s ease;
+	
+}
+header>img{
+	width:100%;
+	height:100%;
+}
+
+section{
+	width:100%;
+	
+	
+}
+
+
+section{
+	margin-top:1%;
+	
+	width:100%;
+}
+
+article{
+	float:left;
+	width:33%;
+	margin-left:2px;
+	
+	
+}
+section article div{
+	
+	
+}
+.s1{
+	background:url("img/p2.jpg") no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:200px;
+	height:200px;
+	margin:0 auto;
+}
+
+.s2{
+	background:url("img/p1.jpg") no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	
+}
+
+.s3{
+	background:url("img/p3.jpg") no-repeat;
+	background-position:center;
+	background-size:100% 100%;
+	width:200px;
+	height:200px;
+	margin:0 auto;
+}
+.karta_video{
+	clear:both;
+	float:left;
+	width:100%;
+	
+	
+}
+iframe{
+	float:left;
+	margin-top:3%;
+	margin-left:80px;
+	padding:15px;
+}
+footer div{
+	width:100%;
+	background-color:pink;
+	color:white;
+	text-align:center;
+	height:60px;
+	top:800px;
+	position:relative;
+}
+@media (max-width:700px){
+header a{
+		width:100%;
+	}	
+	
+iframe{
+	clear:both;
+	float:left;
+	width:90%;
+}	
+	
+header li{
+	clear:both;
+	width:100%;
+	text-align:left;
+}
+article{
+	clear:both;
+	width:95%;
+	margin-top:10px;
+}
+}

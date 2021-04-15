@@ -1,0 +1,125 @@
+
+body{
+	max-width:1000px;
+	width:100%;
+	margin:0 auto;
+	height:900px;
+	font-family: 'Roboto', sans-serif;
+}
+.lijevo{
+	float:left;
+	width:300px;
+	padding:15px;
+	
+}
+.desno{
+	float:right;
+}
+.center{
+	text-align:center;
+}
+.ikone{
+	height:70px;
+	width:70px;
+	border-radius:40px;
+	font-size:55px;
+	text-align:center;
+	margin: 0 auto;
+}
+.ikone:hover{
+	opacity:0.7;
+	font-size:60px;
+}
+.prvaikona{
+	background:#ff4dc4;
+	color:white;
+}
+.drugaikona{
+	background:#00e673;
+	color:white;
+}
+.trecaikona{
+	background:#00b8e6;
+	color:white;
+}
+p{
+	color:gray;
+}
+.divider{
+	clear:both;
+	background:#f2f2f2;
+	height:100px;
+	text-align:center;	
+	padding:100px 0;
+}
+.divider:hover{
+	background-color:cyan;
+}
+.kruzna{
+	border-radius:180px;
+	width:150px;
+	height:150px;
+}
+.ime{
+	color:#0099ff;
+	font-weight:bold;
+}
+.quote1{
+	position:relative;
+	left:230px;
+	top:-170px;
+	background-color:#f2f2f2;
+	font-style:italic;
+	word-wrap:break-word;
+	height:80px;
+	width:750px;
+	display:block;
+	text-align:center;
+	padding:15px;
+}
+.quote2{
+	position:relative;
+	left:-5px;
+	top:20px;
+	background-color:#f2f2f2;
+	font-style:italic;
+	word-wrap:break-word;
+	height:80px;
+	width:750px;
+	display:block;
+	text-align:center;
+	padding:15px;
+}
+quote:after{
+	content:url("img2/quote_sign_right.png");
+}
+quote:before{
+	content:url("img2/quote_sign_left.png");
+}
+.clear{
+	clear:both;
+}
+
+@media (max-width:800px){
+	body{
+		
+		margin:0 auto;
+	}
+	div{
+		clear:both;
+		width:100%;
+	}
+	img{
+		clear:both;
+		margin:0 auto;
+	}
+	quote{
+		width:100px;
+		clear:both;
+		float:left;
+	}
+	.kruzna{
+		clear:both;
+		margin:0 auto;
+	}
+}
